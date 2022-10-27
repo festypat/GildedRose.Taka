@@ -1,14 +1,10 @@
 ﻿using GildedRose.Helper.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GildedRose.Data.Domain
 {
     public class ProductService
     {
+        //This service loads data items
         public static List<ProductItems> GetItems()
         {
             return new List<ProductItems>

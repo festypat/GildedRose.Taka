@@ -16,4 +16,9 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Business Layer\ApplicationCore\GildedRose.ApplicationCore\GildedRose.ApplicationCore.csproj" />
+    <ProjectReference Include="..\..\..\Helper Layer\Helper\GildedRose.Helper\GildedRose.Helper.csproj" />
+  </ItemGroup>
+
 </Project>

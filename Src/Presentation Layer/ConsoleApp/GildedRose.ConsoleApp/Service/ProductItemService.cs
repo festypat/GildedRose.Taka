@@ -1,10 +1,5 @@
 ﻿using GildedRose.ApplicationCore.Services;
 using GildedRose.Helper.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GildedRose.ConsoleApp.Service
 {
@@ -12,7 +7,8 @@ namespace GildedRose.ConsoleApp.Service
     {
         public void InitiateTakaService()
         {
-            StartTakaService.ProcessItems();
+            var productItems = new List<ProductItems>();
+            StartTakaService.ProcessItems(productItems);
         }
     }
 }

@@ -1,17 +1,13 @@
 ﻿using GildedRose.Helper.Constants;
 using GildedRose.Helper.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GildedRose.ApplicationCore.Logics
 {
     public static class ConditionalLogics
     {
+        //This class helps to validate item name
         public static bool EnsureIsAgedBrie(this ProductItems productItem)
-        {
+        {            
             return productItem.ProductName == ProductNameConstants.AgedBrie;
         }
 
