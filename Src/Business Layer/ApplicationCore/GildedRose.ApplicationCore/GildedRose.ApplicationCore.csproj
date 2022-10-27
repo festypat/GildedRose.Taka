@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Data Layer\Data\GildedRose.Data\GildedRose.Data.csproj" />
     <ProjectReference Include="..\..\..\Helper Layer\Helper\GildedRose.Helper\GildedRose.Helper.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

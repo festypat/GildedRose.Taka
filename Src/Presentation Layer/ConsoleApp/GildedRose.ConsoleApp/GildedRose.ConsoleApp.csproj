@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Business Layer\ApplicationCore\GildedRose.ApplicationCore\GildedRose.ApplicationCore.csproj" />
+    <ProjectReference Include="..\..\..\Helper Layer\Helper\GildedRose.Helper\GildedRose.Helper.csproj" />
+  </ItemGroup>
+
 </Project>
